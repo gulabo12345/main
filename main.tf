@@ -8,9 +8,9 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-2"
+  region = "us-south-1"
 }
-resource data "aws_ami" "ubuntu" {
+data "aws_ami" "ubuntu" {
   most_recent = true
 
   filter {
