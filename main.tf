@@ -7,7 +7,7 @@ terraform {
   }
 }
 provider "aws" {
-  region = "us-south-1"
+  region = "ap-south-1"
 }
 data "aws_ami" "ubuntu" {
   most_recent = true
